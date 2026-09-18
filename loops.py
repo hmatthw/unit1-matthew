@@ -23,12 +23,25 @@ def Square(x):
         t.right(5)
 # Square(200)
 
-length = 5
-for i in range(60):
-    for i in range(4):
-        t.forward(length)
-        t.right(90)
-    t.right(5)
-    length += 5
+def sixty():
+    length = 5
+    for i in range(60):
+        for i in range(4):
+            t.forward(100)
+            t.right(90)
+        t.right(5)
+        length += 5
+# sixty()
+
+def five():
+    length = 5
+    for i in range(60):
+        for i in range(5):
+            t.forward(length)
+            t.right(144)
+        t.right(5)
+        length += 5
+# five()
+
 
 turtle.done()
