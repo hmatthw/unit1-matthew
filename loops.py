@@ -1,4 +1,4 @@
-import turtle
+""" import turtle
 from turtle import *
 t = Turtle()
 t.speed(1000)
@@ -44,4 +44,4 @@ def five():
 # five()
 
 
-turtle.done()
+turtle.done() """
